@@ -13,5 +13,6 @@ public class Multiple {
         System.out.println("1*10=10");
 
 
+
     }
 }

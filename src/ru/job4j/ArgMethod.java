@@ -5,10 +5,10 @@ public class ArgMethod {
 
         System.out.println("Hello, " + name);
     }
-    public static void age(int age){
+    public static void age(int age) {
         System.out.println("Age = " + age);
     }
-    public static void main(String[] args){
+    public static void main(String[] args) {
         String name = "Petr Arsentev";
         int age = 33;
          ArgMethod.hello(name);

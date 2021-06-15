@@ -9,7 +9,7 @@ public class MaxTest {
 
     @Test
     public void maxNumber() {
-        int left = 3;
+        int left = 2;
         int right = 5;
         int expected = 5;
         int rsl = Max.max(left, right);

@@ -15,4 +15,22 @@ public class MaxTest {
         int rsl = Max.max(left, right);
         Assert.assertEquals(expected, rsl);
     }
+
+    @Test
+    public void maxNumberLeft() {
+        int left = 5;
+        int right = 5;
+        int expected = 5;
+        int rsl = Max.max(left, right);
+        Assert.assertEquals(expected, rsl);
+    }
+
+    @Test
+    public void rEquallyL() {
+        int left = 8;
+        int right = 8;
+        int expected = 8;
+        int rsl = Max.max(left, right);
+        Assert.assertEquals(expected, rsl);
+    }
 }

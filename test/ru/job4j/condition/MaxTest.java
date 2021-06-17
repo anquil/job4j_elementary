@@ -18,7 +18,7 @@ public class MaxTest {
 
     @Test
     public void maxNumberLeft() {
-        int left = 5;
+        int left = 7;
         int right = 5;
         int expected = 5;
         int rsl = Max.max(left, right);

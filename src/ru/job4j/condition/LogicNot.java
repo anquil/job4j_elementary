@@ -18,11 +18,11 @@ public class LogicNot {
     }
 
     public static boolean notEvenFndPositive(int num) {
-        return !isEven(num) && isPositive(num);
+        return notEven(num) && isPositive(num);
     }
 
     public static boolean evenOrNotPositive(int num) {
-        return !isEven(num) || !isPositive(num);
+        return notEven(num) || notPositive(num);
     }
 
     public static void main(String[] args) {

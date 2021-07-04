@@ -9,11 +9,10 @@ public class ChessBoard {
         }
 
         if (Math.abs(x2 - x1) == Math.abs(y2 - y1)) {
-                return Math.abs(x1 - x2);
-            } else {
-                return rsl;
-            }
+            return Math.abs(x1 - x2);
         }
+        return rsl;
+    }
 
         public static void main(String[] args) {
             int cells = ChessBoard.way(1, 1, 7, 7);

@@ -13,6 +13,7 @@ public class Wnn {
         }
         return 0;
     }
+
     public static void main(String[] args) {
         double res = Wnn.checkGame(4, 2, 6);
         System.out.println(res);

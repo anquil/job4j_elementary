@@ -6,9 +6,6 @@ public class Info {
        int size = 10;
        size = 100;
        size = size - 5;
-
-
-
     }
 }
 

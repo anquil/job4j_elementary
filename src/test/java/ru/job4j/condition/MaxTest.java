@@ -20,7 +20,7 @@ public class MaxTest {
     public void maxNumberLeft() {
         int left = 7;
         int right = 5;
-        int expected = 5;
+        int expected = 7;
         int rsl = Max.max(left, right);
         Assert.assertEquals(expected, rsl);
     }

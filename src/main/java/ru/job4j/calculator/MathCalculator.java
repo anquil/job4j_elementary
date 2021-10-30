@@ -1,6 +1,5 @@
 package ru.job4j.calculator;
 
-//import ru.job4j.calculator.MathFunction;
 import static ru.job4j.math.MathFunction.*;
 
 public class MathCalculator {

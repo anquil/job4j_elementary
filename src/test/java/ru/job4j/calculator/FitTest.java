@@ -1,9 +1,8 @@
 package ru.job4j.calculator;
 
-import org.junit.Assert;
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class FitTest {
 
@@ -12,7 +11,7 @@ public class FitTest {
         short in = 187;
         double expected = 100.05;
         double out = Fit.manWeight(in);
-        Assert.assertEquals(expected, out, 0.01);
+        Assertions.assertEquals(expected, out, 0.01);
     }
 
     @Test
@@ -20,6 +19,6 @@ public class FitTest {
         short in = 187;
         double expected = 88.55;
         double out = Fit.womanWeight(in);
-        Assert.assertEquals(expected, out, 0.01);
+        Assertions.assertEquals(expected, out, 0.01);
     }
 }

@@ -1,7 +1,8 @@
 package ru.job4j.converter;
 
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class ConverterTest {
 
@@ -10,7 +11,7 @@ public class ConverterTest {
         int in = 140;
         int expected = 2;
         int outEuro = Converter.rubleToEuro(in);
-        Assert.assertEquals(expected, outEuro);
+        Assertions.assertEquals(expected, outEuro);
     }
 
     @Test
@@ -18,6 +19,6 @@ public class ConverterTest {
         int in = 180;
         int expected = 3;
         int out = Converter.rubleToDollar(in);
-        Assert.assertEquals(expected, out);
+        Assertions.assertEquals(expected, out);
     }
 }

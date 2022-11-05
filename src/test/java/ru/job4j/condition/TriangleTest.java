@@ -1,9 +1,9 @@
 package ru.job4j.condition;
 
-import org.junit.Assert;
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+
+import org.junit.jupiter.api.Assertions;
 
 public class TriangleTest {
 
@@ -13,7 +13,7 @@ public class TriangleTest {
         double ac = 2;
         double bc = 2;
         boolean result = Triangle.exist(ab, ac, bc);
-        Assert.assertTrue(result);
+        Assertions.assertTrue(result);
     }
 
     @Test
@@ -22,6 +22,6 @@ public class TriangleTest {
         double ac = 2;
         double bc = 2;
         boolean result = Triangle.exist(ab, ac, bc);
-        Assert.assertFalse(result);
+        Assertions.assertFalse(result);
     }
 }

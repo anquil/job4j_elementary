@@ -14,4 +14,12 @@ public class CounterTest  {
         int expected = 30;
         Assertions.assertEquals(expected, result);
     }
+    @Test
+    public void whenSumEvenNumbersFromThreeToNine() {
+        int start = 3;
+        int finish = 8;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 18;
+        Assertions.assertEquals(expected, result);
+    }
 }
